@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  nodeapp:
+    build: nodeapp
+  nodeapp2:
+    build: nodeapp2
+  proxy:
+    build: proxy
+    ports: 
+    - "80:80"
